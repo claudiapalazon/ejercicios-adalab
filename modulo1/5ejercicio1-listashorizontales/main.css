@@ -1,0 +1,22 @@
+.lista {
+  border: solid red;
+  /* margin: 0px; */
+  display: flex;
+  justify-content: center;
+  /* display: inline; */
+  /* list-style-type: none; */
+  padding: 0px;
+}
+
+.elemento {
+  background-color: green;
+  /* display: inline;
+  padding: 0 12px 0 0px;
+  align-items: center; */
+  margin: 0 12px 0 0px;
+  list-style-type: none;
+}
+
+.element {
+  padding: 0;
+}

@@ -1,0 +1,21 @@
+.body {
+  margin: 0px;
+}
+.cookies2 {
+  display: inline-block;
+  align-items: center;
+}
+.div1,
+.div2,
+.div3 {
+  padding: 0px 10px 0px 10px;
+}
+.cookies {
+  position: fixed;
+  bottom: 0px;
+  background-color: purple;
+  width: 100%;
+  height: 40px;
+  color: white;
+  padding: 20px;
+}

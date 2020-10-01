@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hi {
+  font-size: 50px;
+  animation-duration: 3s;
+  animation-name: intro;
+  animation-iteration-count: initial;
+  animation-timing-function: linear;
+}
+@keyframes intro {
+  from {
+    transform: translate(0px, -300px);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
